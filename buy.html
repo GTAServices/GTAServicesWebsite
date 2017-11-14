@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="utf-8">  
+    <link rel="stylesheet" type="text/css" media="screen" href="css2/main.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css2/grid.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" /> 
+    <script src="js/jquery-1.7.1.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/superfish.js"></script>
+    <script src="js/jquery.hoverIntent.minified.js"></script>
+    <script src="js/forms.js"></script>
+    <script>
+	   $(window).load(function(){
+			$('#form1').forms({
+			ownerEmail:'#'
+			})
+	   })
+	</script>
+    <!--[if lt IE 8]>
+       <div style=' clear: both; text-align:center; position: relative;'>
+         <a href="https://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+           <img src="https://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+        </a>
+      </div>
+    <![endif]-->
+    <!--[if lt IE 9]>
+   		<script type="text/javascript" src="js/html5.js"></script>
+    	<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+	<![endif]-->
+	<style>
+	@import url(https://fonts.googleapis.com/css?family=Michroma);/*font-family: 'Michroma', sans-serif;*/
+@import url(https://fonts.googleapis.com/css?family=Orbitron:400,700,500,900);/*font-family: 'Orbitron', sans-serif;*/
+
+/* Getting the new tags to behave */
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {display:block;}
+mark, rp, rt, ruby, summary, time {display:inline;}
+	.button{
+	display:inline-block;
+	text-transform:uppercase;
+	color:#fff;
+	font-size:12px;
+	line-height:16px;
+	font-weight:800;
+	font-family: 'Orbitron', sans-serif;
+	background: url(images/bg-button.jpg) 0 bottom repeat-x;
+	padding:9px 9px 8px 9px;
+	border-radius: 6px;
+	border-bottom:4px solid #0c0c0d;
+	box-shadow: 0 1px #252526;
+	}
+.button:hover{
+	background-position:0 0;
+	}
+	.box-1{
+	border:1px solid #2e2e30;
+	border-radius: 8px;
+	background: url(images/bg-box.jpg) 0 0 repeat;
+	overflow:hidden;
+	}
+.title-box{
+	border-bottom:1px solid #2e2e30;
+	border-radius:  8px;
+	background: url(images/bg-inner.jpg) 0 0 repeat;
+	box-shadow: 0 3px 23px rgba(0,0,0,1) , inset 0 0 31px rgba(0,0,0,0.3);
+	}
+	.inner-box{
+		background: url(images/bg-title.png) 0 0 no-repeat;
+		padding:16px 0 16px 17px;
+		border-radius: 8px;
+		}
+.content-box-1{
+	box-shadow:inset 0 0 51px rgba(0,0,0,0.6);
+	padding:25px 19px 19px 19px;
+	border-radius: 0 0 8px 8px;
+	}
+.block-1{
+	width:173px;
+	float:left;
+	margin:6px 30px 0 0;
+	}
+	.container_14{margin-left:auto;margin-right:auto;width:560px}
+	</style>
+</head>
+<body>
+<!--==============================header=================================-->
+     <div class="head">	     
+         <header>
+               <div class="logo-phone">
+               	   <h1><a href="index.html"><img src="images/logo.png" alt=""></a></h1>
+                   <div class="telephone">
+	                   <span><div id="discord">
+               <a target="_blank" id="Discordbutton" href="https://discord.gg/x7YFFqE"><img src="https://discordapp.com/api/guilds/355057617921376257/embed.png" alt="Discord server"></a>
+            </div></span>
+	                   <span><font style="font-size:13px; color:#10FC1F; 
+    text-shadow: 0 0 3px #FF0000;">Online</font> 24 Hours</span>
+                   </div>
+               </div>
+      </header>
+      <div class="div-nav">
+            <nav> 
+              <ul class="sf-menu">
+                  <li class="current"><a href="index.html">Home</a></li>
+                   <li><a href="index-1.html">About</a></li>
+                   <li><a href="index-2.html">Services</a> </li>
+                   <li><a href="index-3.html">Pricing</a>
+                      <ul>
+                        <li><a href="#">Lorem ipsum dolor </a></li>    
+                        <li><a href="#">sit amet conse </a></li>
+                        <li><a href="#">ctetur adipisicing </a></li>
+                     </ul>
+                   </li>
+                   <li><a href="index-4.html">Blog</a></li> 
+                   <li><a href="buy.html">Contacts</a></li> 
+               </ul>
+             </nav>
+             <div class="clear"></div>
+       </div>
+   </div> 
+		<!--==============================content================================-->
+<section id="content">         
+  <div class="container_14">
+    <div class="wrapper">
+      <div class="grid_7">
+         <div class="box-1">
+               <div class="title-box">
+                  <div class="inner-box">
+                     <h2>Contact Form</h2>
+                  </div>
+                 <p>&nbsp;</p>
+               </div>
+               <div class="content-box-1">
+			   
+                  <form id="form1">
+					<fieldset>
+					<div class="success">Contact form submitted!<br>
+					<strong>We will be in touch soon.</strong>
+					</div> <div class="div-label"><td><input type="radio" name="gender" value="male" checked>
+					  <strong>Steam</strong> <br></td></div>
+					<div class="div-label">
+						<label class="name wrapper-after">      
+						<input type="text" value="Name:">
+						
+						<span class="error error-empty">*This is not a valid name.</span> <span class="empty error-empty">*This field is required.</span>            
+						</label><div class="clear"></div>
+					</div>
+					<div class="div-label">
+	                    <label class="email wrapper-after">   
+						<input type="text" value="E-mail:"> 
+						 <span class="error error-empty">*This is not a valid email address.</span> <span class="empty error-empty">*This field is required.</span>                     
+						</label><div class="clear"></div>
+	                </div>
+					<div class="div-label">
+	                    <label class="phone wrapper-after"> 
+						<input type="text" value="Phone:">
+						 <span class="error error-empty">*This is not a valid phone number.</span> <span class="empty error-empty">*This field is required.</span>       
+						</label><div class="clear"></div>
+	                </div>   
+					<div class="div-label">
+						<label class="message wrapper-after">    
+						<textarea>Message:</textarea>
+						<span class="error">*The message is too short.</span> <span class="empty">*This field is required.</span>
+						</label>
+					</div>
+					<div class="clear"></div>
+					<div class="buttons2">               
+					<a href="#" data-type="submit" class="button">Send</a>
+					<a href="#" data-type="reset" class="button">Clear</a>
+					<div class="clear"></div>    
+					 </div>
+					<div class="clear"></div>
+				    </fieldset>     
+				  </form>   
+               </div>
+            </div>
+         </div>
+         
+    </div><!--the end of wrapper-->
+    
+  </div>
+</section>
+	<!--==============================footer=================================-->		
+	<footer>
+      <div class="main-footer">
+		<div class="container_12">
+                <ul class="menu-footer">
+                   <li><a href="index.html">Home</a></li>
+                   <li><a href="index-1.html">About</a></li>
+                   <li><a href="index-2.html">Services</a></li>
+                   <li><a href="index-3.html">Pricing</a></li>
+                   <li><a href="index-4.html">Blog</a></li>
+                   <li class="current-1"><a href="index-5.html">Contacts</a></li>
+                </ul>
+                <div class="clear"></div>
+	  	        <div class="grid_12">
+	  	        	<p>Repair of video games &copy; 2012 &nbsp;&nbsp;&nbsp;&nbsp;<a href="index-6.html">Privacy Policy</a></p>
+	  	        </div>
+                <div class="clear"></div>
+        </div>
+      </div>  
+	</footer>	
+</body><!-- Google Tag Manager --><noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P9FT69"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-P9FT69');</script><!-- End Google Tag Manager -->
+</html>
